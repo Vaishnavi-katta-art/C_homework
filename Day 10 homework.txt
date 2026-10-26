@@ -1,0 +1,34 @@
+Day 10 homework 
+
+#include <stdio.h>
+int main() {
+    float total, gst, grandTotal;
+    printf("Enter the total amount: ");
+    scanf("%f", &total);
+    gst = total * 18 / 100;
+    grandTotal = total;
+    grandTotal += gst;
+    printf("Total = %.2f\n", total);
+    printf("GST = %.2f\n", gst);
+    printf("Grand Total = %.2f\n", grandTotal);
+
+    return 0;
+}
+
+
+
+#include <stdio.h>
+
+int main() {
+    int maths, english, science;
+    int passed;
+    printf("Enter Maths marks: ");
+    scanf("%d", &maths);
+    printf("Enter English marks: ");
+    scanf("%d", &english);
+    printf("Enter Science marks: ");
+    scanf("%d", &science);
+    passed = (maths >= 40 && english >= 40 && science >= 40);
+    printf("Passed all three subjects? %d\n", passed);
+    return 0;
+}
