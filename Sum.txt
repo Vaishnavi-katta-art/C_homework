@@ -1,0 +1,37 @@
+Sum 
+#include <stdio.h>
+int main()
+{
+    int a, b;
+    scanf("%d %d", &a, &b);
+    printf("%d\n", a + b);
+    printf("%d\n", a - b);
+    printf("%d\n", a * b);
+    return 0;
+}
+
+hour 
+#include <stdio.h>
+int main()
+{
+    int minutes, hours, remaining;
+    scanf("%d", &minutes);
+    hours = minutes / 60;
+    remaining = minutes % 60;
+    printf("%d hours %d minutes\n", hours, remaining);
+    return 0;
+}
+
+Area 
+#include <stdio.h>
+int main()
+{
+    float length, width, area;
+    scanf("%f %f", &length, &width);
+    area = length * width;
+    printf("%10.2f\n", area);
+    return 0;
+}
+
+
+
